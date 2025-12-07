@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Journal — History</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Your Journal History</h1>
+    <nav>
+        <a href="index.html">Analyze</a>
+        <a href="history.html">History</a>
+    </nav>
+</header>
+
+<section class="legend">
+    <span class="legend-item sentiment">Sentiment</span>
+    <span class="legend-item emotion">Emotion</span>
+    <span class="legend-item stress">Stress</span>
+    <span class="legend-item energy">Energy</span>
+</section>
+
+
+<main>
+    <section class="buttons">
+        <button onclick="loadLast3()">Show Last 3 Entries</button>
+        <button onclick="loadAllEntries()">Show All Entries</button>
+    </section>
+
+    <section id="entriesSection" class="hidden">
+        <h2 id="entriesTitle"></h2>
+        <div id="entriesList"></div>
+    </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

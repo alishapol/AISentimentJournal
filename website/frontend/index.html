@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Journal — Analyze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>AI Journal Analyzer</h1>
+    <p>Understand your emotions with the help of AI!</p>
+    <nav>
+        <a href="index.html">Analyze</a>
+        <a href="history.html">History</a>
+    </nav>
+</header>
+
+<section class="legend">
+    <span class="legend-item sentiment">Sentiment</span>
+    <span class="legend-item emotion">Emotion</span>
+    <span class="legend-item stress">Stress</span>
+    <span class="legend-item energy">Energy</span>
+</section>
+
+
+<main>
+    <section class="input-section">
+        <textarea id="entryText" placeholder="Write your thoughts here..."></textarea>
+
+        <div class="buttons">
+            <button onclick="analyzeEntry()">Analyze</button>
+            <button onclick="addEntry()">Save Entry</button>
+        </div>
+    </section>
+
+    <section id="analysisSection" class="hidden">
+        <h2>Analysis</h2>
+        <div id="analysisOutput"></div>
+    </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
