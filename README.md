@@ -35,10 +35,10 @@ Every saved entry uses a polished, human-friendly timestamp format like "Decembe
 * Important: start at root directory
 
 * How to add a new journal entry:
-- python3 journal_cli.py add "I had a really bad day at work today."
+   - python3 journal_cli.py add "I had a really bad day at work today."
 
 * How to view last three journal entries:
-- python3 journal_cli.py summary
+   - python3 journal_cli.py summary
 
 
 # Web Application
