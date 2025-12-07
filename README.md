@@ -45,10 +45,10 @@ Every saved entry uses a polished, human-friendly timestamp format like "Decembe
 * Important: start at backend to load app (must cd to backend folder)
 
 * Step 1: How to load web app from VSCode terminal:
-- uvicorn app:app --reload
+   - uvicorn app:app --reload
 
 * Step 2: How to open frontend:
-- In VSCode, click on right click index.html file and select "Open With Live Server"
+   - In VSCode, click on right click index.html file and select "Open With Live Server"
 
 * Website Features:
 - Analyze text without saving
