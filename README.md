@@ -150,7 +150,7 @@ This project uses AI tools (ChatGPT) to accelerate development, but all code has
      manually by testing polarity flips. For example, I rejected early suggestions
      like ‘destroyed’ because context drastically changes meaning (‘I destroyed the
      exam’ vs ‘I feel destroyed today’).
-- The “but-clause rule” was refined after observing incorrect model bias; ChatGPT suggested string-splitting logic, but I implemented and verified the final behavior using edge cases like:
+- The “but-clause rule” was refined after observing incorrect model bias and ChatGPT suggested string-splitting logic, but I implemented and verified the final behavior using edge cases like:
    - "It was bad but good"
    - "Good but bad"
    - "I thought it would be bad but it wasn’t"
