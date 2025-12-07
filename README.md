@@ -89,6 +89,9 @@ Every saved entry uses a polished, human-friendly timestamp format like "Decembe
      - Red = stress
      - Green = energy
 
+# Website Demo
+- I have attached a short demo displaying all the features of the web application to this repo! 
+
 # Intelligent Emotional Processing
 * Semantic Refinement
 - SBERT embeddings compare your text with thousands of positive and negative examples.
