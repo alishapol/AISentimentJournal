@@ -1,4 +1,5 @@
 # AI-Powered Emotional Journaling System
+- Coded on Visual Studio Code 3
 - A full-stack NLP project using transformers, semantic similarity, slang intelligence, and real-time emotional inference.
 - This project is a fully integrated emotional journaling system powered by modern NLP models, custom semantic analysis, and a dual-interface design. Users can analyze their emotions and daily experiences through either a command-line interface or a web application, both of which share the same AI engine and write to a unified journal_entries.json file.
 - The system focuses on emotional clarity, mental-state reflection, and intuitive user experience.
@@ -29,7 +30,7 @@ Core Components
 - Shared data store: journal_entries.json (used by both CLI and website)
 
 * PST Timestamping
-Every saved entry uses a polished, human-friendly timestamp format like "December 7, 2025 - 5:00 PM (PST)
+Every saved entry uses a polished, human-friendly timestamp format like "December 7, 2025 - 5:00 PM (PST)"
 
 # Command-Line Interface (CLI)
 * Important: start at root directory
